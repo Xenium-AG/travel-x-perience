@@ -1,0 +1,13 @@
+# Ignore everything for now
+*
+!.gitignore
+!README.md
+
+# dist files needed to view the page
+!index.html
+!favicon*
+!*.svg
+!jquery.js
+!main.min.js
+!/country-photos/
+!/country-photos/*.jpg
