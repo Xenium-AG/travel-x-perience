@@ -11,3 +11,6 @@
 !main.min.js
 !/country-photos/
 !/country-photos/*.jpg
+
+# template file without personal data
+!index-unencrypted-template.html
