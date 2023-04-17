@@ -12,5 +12,5 @@
 !/country-photos/
 !/country-photos/*.jpg
 
-# template file without personal data
-!index-unencrypted-template.html
+# template files without personal data
+!*template.*

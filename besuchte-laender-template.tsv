@@ -1,0 +1,14 @@
+// Für jede Person bitte erst den Namen eingeben, dann einmal Tab drücken und dahinter die URL zu der persönlichen Karte einfügen
+// Alles hinter einem doppelten Schrägstrich ist Kommentar und wird von der Software ignoriert
+// Wenn jemand seine Länder ändern will, bitte einfach den Link zuschicken/öffnen, Änderungen vornehmen und den alten Link hier durch den neuen ersetzen
+
+Unbekannt	https://...com/#DE // Nur ein Beispiel
+
+
+// Bitte unbedingt den ISO-Ländercode verwenden und wieder mit Tab trennen
+// Für Regionen mit mehreren Ländern bitte pro Land einzeln auflisten
+// Jedes Land mit Report muss oben bei irgendeinem Namen schon mal genannt worden sein.
+// Falls es nicht auftaucht, bitte den Namen zumindest mit diesem Land neu anlegen
+---reports---
+
+DE	Unbekannt
