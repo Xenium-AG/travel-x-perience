@@ -1,9 +1,14 @@
 # travel-x-perience
 ## Updates / Änderungen vornehmen
-### Voraussetzungen
+### Voraussetzungen / Setup
 1. Private Dateien erhalten, die nicht Teil des öffentlichen Repositories sind
-2. [Python](https://www.python.org/downloads/) installieren
-3. Für Linux / Mac: [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux) installieren
+2. Folgendes installieren
+	- [Python](https://www.python.org/downloads/)
+	- Für Linux / Mac: [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
+	- [npm (incl. node.js)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) oder nur [node.js](https://nodejs.org/en/)
+	- [VS Code](https://code.visualstudio.com) (empfohlen) oder stattdessen nur [git](https://git-scm.com/downloads) bzw. [git für Windows](https://gitforwindows.org)
+3. Konsole öffnen (in VS Code per *Strg+J*)
+4. Kommando `npm i` ausführen
 
 ### Einfache Anpassungen an der Karte machen
 1. Datei *besuchte-laender.tsv* mit neuen Änderungen anpassen (*Nicht* die Datei ...template.tsv!)

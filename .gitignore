@@ -13,4 +13,5 @@
 !/country-photos/*.jpg
 
 # template files without personal data
-!*template.*
+!public-templates
+!public-templates/*template.*
