@@ -43,18 +43,18 @@ with open(input_file, 'r') as f:
 		line = line.strip()
 		
 		if not report_section:
-			# ignore lines that do not contain "amcharts.com"
-			if 'amcharts.com' not in line:
+			# ignore lines that do not contain "visitedplaces.com"
+			if 'visitedplaces.com' not in line:
 				continue
 			
-			# remove "...com/#" from any line
-			line = line.replace('...com/#', '')
+			# remove anything before "&places=~" from any line
+			line = line.split('&places=~')[1]
 			
 			# split the line into a list of values
 			person, countries = line.split('\t')
 			
 			# convert the values to a dictionary
-			contributors[person] = countries.split(',')
+			contributors[person] = countries.replace('_', ',').split(',')
 
 		else: #if report_section
 			if '\t' not in line:
